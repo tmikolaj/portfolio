@@ -1,0 +1,31 @@
+.rectangle
+{
+  width: 40vw;
+  max-width: 600px;
+  height: 60vh;
+  max-height: 800px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, red, #121212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.rectangle-image
+{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  position: absolute;
+}
+
+@media (max-width: 768px)
+{
+  .rectangle
+  {
+      width: 90vw;
+      height: 50vh;
+  }
+}
