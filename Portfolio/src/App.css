@@ -159,8 +159,8 @@ html, body
 .Contact-page button
 {
   background: linear-gradient(to bottom, #121212, rgb(219, 12, 12));
-  width: 8vw;
-  height: 4vh;
+  width: 120px;
+  height: 60px;
 }
 
 .Contact-page p
